@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Feedback</title>
+    <link rel="stylesheet" href="feedback.css">
+</head>
+<body>
+    <h1>Tell us what you think!</h1>
+    <div class="feedback-form">
+        <label for="name">Your Name:</label>
+        <input type="text" id="name" name="name" required>
+    <br>
+        <label for="gender">Gender:</label>
+        <select id="gender" name="gender">
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="other">Other</option>
+        </select>
+<br>
+        <label for="product_name">Product Name:</label>
+        <br>
+        <input type="text" id="product_name" name="product_name" required>
+<br>
+        <img src="images/product-image.jpg" alt="Product Image" class="product-image">
+<br>
+        <label for="details">Product Details:</label>
+        <br>
+        <textarea id="details" name="details" rows="5" placeholder="What features did you like or dislike?"></textarea>
+<br>
+        <label for="description">Overall Description:</label>
+        <br>
+        <textarea id="description" name="description" rows="5" placeholder="Would you recommend this product? Why or why not?"></textarea>
+<br>
+        <button type="submit">Submit Feedback</button>
+    </div>
+
+    <div class="disclaimer">
+        <p>Your feedback will be used to improve our products and services. We appreciate your time and input!</p>
+    </div>
+
+    <script src="feedback.js"></script>
+</body>
+</html>

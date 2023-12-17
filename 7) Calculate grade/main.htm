@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Grade Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Student Grade Calculator</h1>
+    <form onsubmit="calculateGrade()">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="marks1">Marks 1:</label>
+        <input type="number" id="marks1" name="marks1" required>
+
+        <label for="marks2">Marks 2:</label>
+        <input type="number" id="marks2" name="marks2" required>
+
+        <label for="marks3">Marks 3:</label>
+        <input type="number" id="marks3" name="marks3" required>
+
+        <button type="submit">Calculate</button>
+    </form>
+
+    <div id="result" style="display: none;">
+        <p>Percentage: <span id="percentage"></span>%</p>
+        <p>Grade: <span id="grade"></span></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

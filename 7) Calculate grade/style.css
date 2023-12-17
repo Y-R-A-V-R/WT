@@ -1,0 +1,32 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#result {
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.excellent {
+  background-color: #90EE90;
+}
+
+.good {
+  background-color: #FFC100;
+}
+
+.average {
+  background-color: #FFCC99;
+}
+
+.poor {
+  background-color: #FF6347;
+}
